@@ -1,2 +1,3 @@
 # C_Gato
-El primer repositorio de c# 
+## Proyectos con c#
+### Bárcenas Martínez E I

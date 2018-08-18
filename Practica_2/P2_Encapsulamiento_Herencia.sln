@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_Encapsulamiento_Herencia", "P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia.csproj", "{27D4991B-F361-4ECA-A046-E7A31F94E2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27D4991B-F361-4ECA-A046-E7A31F94E2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D4991B-F361-4ECA-A046-E7A31F94E2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D4991B-F361-4ECA-A046-E7A31F94E2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D4991B-F361-4ECA-A046-E7A31F94E2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E878418-A5C9-4A9B-851C-65A8C1BCB152}
+	EndGlobalSection
+EndGlobal

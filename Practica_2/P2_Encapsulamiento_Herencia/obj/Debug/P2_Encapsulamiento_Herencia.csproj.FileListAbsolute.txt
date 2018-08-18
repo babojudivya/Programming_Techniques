@@ -1,0 +1,7 @@
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\obj\Debug\P2_Encapsulamiento_Herencia.csprojAssemblyReference.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\obj\Debug\P2_Encapsulamiento_Herencia.csproj.CoreCompileInputs.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\bin\Debug\P2_Encapsulamiento_Herencia.exe.config
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\bin\Debug\P2_Encapsulamiento_Herencia.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\bin\Debug\P2_Encapsulamiento_Herencia.pdb
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\obj\Debug\P2_Encapsulamiento_Herencia.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\P2_Encapsulamiento_Herencia\P2_Encapsulamiento_Herencia\obj\Debug\P2_Encapsulamiento_Herencia.pdb

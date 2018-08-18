@@ -1,0 +1,7 @@
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\bin\Debug\Principal_Herencia.exe.config
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\bin\Debug\Principal_Herencia.exe
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\bin\Debug\Principal_Herencia.pdb
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\obj\Debug\Principal_Herencia.csprojAssemblyReference.cache
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\obj\Debug\Principal_Herencia.csproj.CoreCompileInputs.cache
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\obj\Debug\Principal_Herencia.exe
+C:\Users\alumnos\source\repos\Principal_Herencia\Principal_Herencia\obj\Debug\Principal_Herencia.pdb

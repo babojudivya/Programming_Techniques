@@ -1,0 +1,10 @@
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\bin\Debug\SistemaDeSeguridadCIA.exe.config
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\bin\Debug\SistemaDeSeguridadCIA.exe
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\bin\Debug\SistemaDeSeguridadCIA.pdb
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.csprojAssemblyReference.cache
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.Form1.resources
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.Properties.Resources.resources
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.csproj.GenerateResource.cache
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.csproj.CoreCompileInputs.cache
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.exe
+E:\Técnicas de Programación\Polimorfismo\SistemaDeSeguridadCIA\SistemaDeSeguridadCIA\obj\Debug\SistemaDeSeguridadCIA.pdb

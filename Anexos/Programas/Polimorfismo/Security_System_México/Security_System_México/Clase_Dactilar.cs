@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Security_System_México
 {
-    class Clase_Dactilar
+    class Clase_Dactilar: Clase_Sensores
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Security_System_México
 {
-    class Clase_Voz
+    class Clase_Voz: Clase_Sensores
     {
     }
 }

@@ -8,3 +8,9 @@ C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Security_System_México\Security_Sy
 C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Security_System_México\Security_System_México\obj\Debug\Security_System_México.csproj.CoreCompileInputs.cache
 C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Security_System_México\Security_System_México\obj\Debug\Security_System_México.exe
 C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Security_System_México\Security_System_México\obj\Debug\Security_System_México.pdb
+C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\bin\Debug\Security_System_México.exe.config
+C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.exe
+C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.pdb
+C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.Form1.resources
+C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.Properties.Resources.resources
+C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.csproj.GenerateResource.Cache

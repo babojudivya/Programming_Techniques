@@ -1,6 +1,6 @@
 ﻿namespace Security_System_México
 {
-    partial class Form1
+    partial class InterfazGrafica
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -32,7 +32,7 @@
             this.cboSensor = new System.Windows.Forms.ComboBox();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.txtboID = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.MostrarValidacion = new System.Windows.Forms.RichTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pboMinimize = new System.Windows.Forms.PictureBox();
             this.pboClose = new System.Windows.Forms.PictureBox();
@@ -58,6 +58,7 @@
             this.cboUsuario.Size = new System.Drawing.Size(167, 21);
             this.cboUsuario.TabIndex = 1;
             this.cboUsuario.Text = "Usuario";
+            this.cboUsuario.Click += new System.EventHandler(this.Tipo_Usuario);
             // 
             // cboSensor
             // 
@@ -73,6 +74,7 @@
             this.cboSensor.Size = new System.Drawing.Size(167, 21);
             this.cboSensor.TabIndex = 2;
             this.cboSensor.Text = "Sensor";
+            this.cboSensor.Click += new System.EventHandler(this.Tipo_Sensor);
             // 
             // btnAcceder
             // 
@@ -89,6 +91,7 @@
             this.btnAcceder.TabIndex = 3;
             this.btnAcceder.Text = "Acceder";
             this.btnAcceder.UseVisualStyleBackColor = false;
+            this.btnAcceder.Click += new System.EventHandler(this.btn_Acceder);
             // 
             // txtboID
             // 
@@ -99,16 +102,17 @@
             this.txtboID.TabIndex = 4;
             this.txtboID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtboID.UseSystemPasswordChar = true;
+            this.txtboID.Click += new System.EventHandler(this.input_ID);
             // 
-            // richTextBox1
+            // MostrarValidacion
             // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.No;
-            this.richTextBox1.Location = new System.Drawing.Point(226, 340);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(96, 30);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.MostrarValidacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.MostrarValidacion.Cursor = System.Windows.Forms.Cursors.No;
+            this.MostrarValidacion.Location = new System.Drawing.Point(216, 340);
+            this.MostrarValidacion.Name = "MostrarValidacion";
+            this.MostrarValidacion.Size = new System.Drawing.Size(118, 30);
+            this.MostrarValidacion.TabIndex = 5;
+            this.MostrarValidacion.Text = "";
             // 
             // textBox1
             // 
@@ -165,7 +169,7 @@
             this.panel1.TabIndex = 9;
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
-            // Form1
+            // InterfazGrafica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,7 +180,7 @@
             this.Controls.Add(this.pboMinimize);
             this.Controls.Add(this.pboClose);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.MostrarValidacion);
             this.Controls.Add(this.txtboID);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.cboSensor);
@@ -184,7 +188,7 @@
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "InterfazGrafica";
             this.Opacity = 0.92D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(21)))));
@@ -203,7 +207,7 @@
         private System.Windows.Forms.ComboBox cboSensor;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.TextBox txtboID;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox MostrarValidacion;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pboClose;
         private System.Windows.Forms.PictureBox pboMinimize;

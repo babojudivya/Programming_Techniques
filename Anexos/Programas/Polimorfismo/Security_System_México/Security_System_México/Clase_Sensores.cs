@@ -6,33 +6,68 @@ using System.Threading.Tasks;
 
 namespace Security_System_México
 {
-    class Clase_Sensores
+    /*Nuestra clase debe de ser abstracta*/
+    abstract class Clase_Sensores
     {
-        private string ID;
-        private string TipoUsuario;
-        private string TipoSensor;
+
+        /*Los atributos deben de ser protected*/
+        protected string ID;
+        protected string TipoUsuario;
+        protected string TipoSensor;
         //internal string usuario;
-        internal bool Status;
+        protected bool Status_Validacion = false;
 
-        internal string ID_Atributo
+        //Único atributo que va a retorno valor por medio de una función abstracta 
+        public string ID_Atributo
         {
-            get { return ID; }
-            set { ID = value; }
+            set { this.ID = value; }
         }
 
-        internal string TipoUsuario_Atributo
+        public void SetTipoUsuario_Atributo(string user)
         {
-            get { return TipoUsuario; }
-            set { TipoUsuario = value; }
+            TipoUsuario = user;
         }
 
-        internal string TipoSensor_Atributo
+        public void SetTipoSensor_Atributo(string sensor)
         {
-            get { return TipoSensor; }
-            set { TipoSensor = value; }
+            TipoSensor = sensor;
         }
 
-        public void AbrirPuerta()
+     
+        //Metodo abstracto que va a retornar un valor
+        public abstract string GetID();
+
+        public virtual string ActivarAlarma()
+        {
+            return "Alarma activada";
+        }
+
+       
+        internal Boolean IdentificarUsuario()
+        {
+            
+            if ((TipoUsuario == "Directivo"))
+            {
+                Status_Validacion = true;
+            }
+            else if ((TipoUsuario == "Académico") && (TipoSensor != "Iris"))
+            {
+                Status_Validacion = true;
+            }
+            else if ((TipoUsuario == "Estudiante") && (TipoSensor == "Dactilar"))
+            {
+                Status_Validacion = true;
+            }
+            else
+            {
+                Status_Validacion = false;
+            }
+
+            return Status_Validacion;
+        }
+
+
+        /*public void AbrirPuerta()
         {
 
         }
@@ -42,39 +77,17 @@ namespace Security_System_México
 
         }
 
-        public void IdentificarUsuario()
-        {
-            if ((TipoUsuario == "Directivo") && (TipoSensor == "Iris") && (ID=="Directivo"))
-            {
-                Status = true;
-            }
-            else if ((TipoUsuario == "Académico") && ((TipoSensor == "Voz") || ((TipoSensor == "Dactilar"))) && (ID == "Académico"))
-            {
-                Status = true;
-            }
-            else if ((TipoUsuario == "Estudiante") && (TipoSensor == "Dactilar") && (ID == "Estudiante"))
-            {
-                Status = true;
-            }
-            else
-            {
-                Status = false;
-            }
-        }
-
         public void DenegarAcceso()
         {
 
         }
 
-        public void ActivarAlarma()
-        {
 
-        }
 
         public void Bloquear()
         {
 
         }
+        */
     }
 }

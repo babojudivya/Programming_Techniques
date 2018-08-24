@@ -14,3 +14,13 @@ C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debu
 C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.Form1.resources
 C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.Properties.Resources.resources
 C:\Users\Alumno\Desktop\Security_System_México\Security_System_México\obj\Debug\Security_System_México.csproj.GenerateResource.Cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.csprojAssemblyReference.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.InterfazGrafica.resources
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.Properties.Resources.resources
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.csproj.GenerateResource.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.csproj.CoreCompileInputs.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\obj\Debug\Security_System_México.pdb
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\bin\Debug\Security_System_México.exe.config
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\bin\Debug\Security_System_México.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Anexos\Programas\Polimorfismo\Security_System_México\Security_System_México\bin\Debug\Security_System_México.pdb

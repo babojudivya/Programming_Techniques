@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cboUsuario = new System.Windows.Forms.ComboBox();
-            this.cboSensor = new System.Windows.Forms.ComboBox();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.txtboID = new System.Windows.Forms.TextBox();
             this.MostrarValidacion = new System.Windows.Forms.RichTextBox();
@@ -38,43 +36,12 @@
             this.pboClose = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cboUsuario = new System.Windows.Forms.ComboBox();
+            this.cboSensor = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // cboUsuario
-            // 
-            this.cboUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboUsuario.FormattingEnabled = true;
-            this.cboUsuario.Items.AddRange(new object[] {
-            "Directivo",
-            "Académico",
-            "Estudiante"});
-            this.cboUsuario.Location = new System.Drawing.Point(187, 134);
-            this.cboUsuario.Margin = new System.Windows.Forms.Padding(0);
-            this.cboUsuario.Name = "cboUsuario";
-            this.cboUsuario.Size = new System.Drawing.Size(167, 21);
-            this.cboUsuario.TabIndex = 1;
-            this.cboUsuario.Text = "Usuario";
-            this.cboUsuario.Click += new System.EventHandler(this.Tipo_Usuario);
-            // 
-            // cboSensor
-            // 
-            this.cboSensor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboSensor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboSensor.FormattingEnabled = true;
-            this.cboSensor.Items.AddRange(new object[] {
-            "Dactilar",
-            "Voz",
-            "Iris"});
-            this.cboSensor.Location = new System.Drawing.Point(187, 187);
-            this.cboSensor.Name = "cboSensor";
-            this.cboSensor.Size = new System.Drawing.Size(167, 21);
-            this.cboSensor.TabIndex = 2;
-            this.cboSensor.Text = "Sensor";
-            this.cboSensor.Click += new System.EventHandler(this.Tipo_Sensor);
             // 
             // btnAcceder
             // 
@@ -84,14 +51,14 @@
             this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcceder.ForeColor = System.Drawing.Color.White;
-            this.btnAcceder.Location = new System.Drawing.Point(236, 298);
+            this.btnAcceder.Location = new System.Drawing.Point(237, 268);
             this.btnAcceder.Margin = new System.Windows.Forms.Padding(0);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(75, 23);
             this.btnAcceder.TabIndex = 3;
             this.btnAcceder.Text = "Acceder";
             this.btnAcceder.UseVisualStyleBackColor = false;
-            this.btnAcceder.Click += new System.EventHandler(this.btn_Acceder);
+            this.btnAcceder.Click += new System.EventHandler(this.Btn_Acceder);
             // 
             // txtboID
             // 
@@ -101,16 +68,15 @@
             this.txtboID.Size = new System.Drawing.Size(150, 13);
             this.txtboID.TabIndex = 4;
             this.txtboID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtboID.UseSystemPasswordChar = true;
             this.txtboID.Click += new System.EventHandler(this.input_ID);
             // 
             // MostrarValidacion
             // 
             this.MostrarValidacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.MostrarValidacion.Cursor = System.Windows.Forms.Cursors.No;
-            this.MostrarValidacion.Location = new System.Drawing.Point(216, 340);
+            this.MostrarValidacion.Location = new System.Drawing.Point(216, 307);
             this.MostrarValidacion.Name = "MostrarValidacion";
-            this.MostrarValidacion.Size = new System.Drawing.Size(118, 30);
+            this.MostrarValidacion.Size = new System.Drawing.Size(118, 74);
             this.MostrarValidacion.TabIndex = 5;
             this.MostrarValidacion.Text = "";
             // 
@@ -169,6 +135,31 @@
             this.panel1.TabIndex = 9;
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
+            // cboUsuario
+            // 
+            this.cboUsuario.FormattingEnabled = true;
+            this.cboUsuario.Items.AddRange(new object[] {
+            "Directivo",
+            "Académico",
+            "Estudiante"});
+            this.cboUsuario.Location = new System.Drawing.Point(187, 128);
+            this.cboUsuario.Name = "cboUsuario";
+            this.cboUsuario.Size = new System.Drawing.Size(167, 21);
+            this.cboUsuario.TabIndex = 10;
+            // 
+            // cboSensor
+            // 
+            this.cboSensor.FormattingEnabled = true;
+            this.cboSensor.Items.AddRange(new object[] {
+            "Iris",
+            "Voz",
+            "Dactilar"});
+            this.cboSensor.Location = new System.Drawing.Point(187, 176);
+            this.cboSensor.Name = "cboSensor";
+            this.cboSensor.Size = new System.Drawing.Size(167, 21);
+            this.cboSensor.TabIndex = 11;
+            this.cboSensor.SelectedIndexChanged += new System.EventHandler(this.Tipo_Sensor);
+            // 
             // InterfazGrafica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +167,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(21)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(545, 440);
+            this.Controls.Add(this.cboSensor);
+            this.Controls.Add(this.cboUsuario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pboMinimize);
             this.Controls.Add(this.pboClose);
@@ -183,8 +176,6 @@
             this.Controls.Add(this.MostrarValidacion);
             this.Controls.Add(this.txtboID);
             this.Controls.Add(this.btnAcceder);
-            this.Controls.Add(this.cboSensor);
-            this.Controls.Add(this.cboUsuario);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -203,8 +194,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox cboUsuario;
-        private System.Windows.Forms.ComboBox cboSensor;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.TextBox txtboID;
         private System.Windows.Forms.RichTextBox MostrarValidacion;
@@ -212,6 +201,8 @@
         private System.Windows.Forms.PictureBox pboClose;
         private System.Windows.Forms.PictureBox pboMinimize;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox cboUsuario;
+        private System.Windows.Forms.ComboBox cboSensor;
     }
 }
 

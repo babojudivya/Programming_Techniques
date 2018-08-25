@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clase_Neutral.cs" />
     <Compile Include="Clase_Sensor_Delantero.cs" />
     <Compile Include="Clase_Sensor_Trasero.cs" />
     <Compile Include="InterfazUsuario.cs">

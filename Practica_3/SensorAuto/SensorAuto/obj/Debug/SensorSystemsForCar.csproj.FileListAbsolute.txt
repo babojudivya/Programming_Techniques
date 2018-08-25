@@ -8,3 +8,13 @@ C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\SensorAuto\SensorAuto\obj\Debug\Sen
 C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\SensorAuto\SensorAuto\obj\Debug\SensorSystemsForCar.csproj.CoreCompileInputs.cache
 C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\SensorAuto\SensorAuto\obj\Debug\SensorAuto.exe
 C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\SensorAuto\SensorAuto\obj\Debug\SensorAuto.pdb
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\bin\Debug\SensorAuto.exe.config
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\bin\Debug\SensorAuto.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\bin\Debug\SensorAuto.pdb
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorSystemsForCar.csprojAssemblyReference.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorAuto.ProgramaPrincipal.resources
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorAuto.Properties.Resources.resources
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorSystemsForCar.csproj.GenerateResource.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorSystemsForCar.csproj.CoreCompileInputs.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorAuto.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\Documents\C_Gato\Practica_3\SensorAuto\SensorAuto\obj\Debug\SensorAuto.pdb

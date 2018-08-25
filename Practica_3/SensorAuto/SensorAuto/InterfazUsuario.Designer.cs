@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboDNR = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.MostarEstado = new System.Windows.Forms.RichTextBox();
@@ -36,13 +36,18 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox2
+            // cboDNR
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(88, 113);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 1;
+            this.cboDNR.FormattingEnabled = true;
+            this.cboDNR.Items.AddRange(new object[] {
+            "Drive",
+            "Neutral",
+            "Reverse"});
+            this.cboDNR.Location = new System.Drawing.Point(88, 113);
+            this.cboDNR.Name = "cboDNR";
+            this.cboDNR.Size = new System.Drawing.Size(121, 21);
+            this.cboDNR.TabIndex = 1;
+            this.cboDNR.SelectedIndexChanged += new System.EventHandler(this.SeleccionarDNR);
             // 
             // label1
             // 
@@ -51,7 +56,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Metros";
+            this.label1.Text = "Meters";
             // 
             // label2
             // 
@@ -76,7 +81,6 @@
             this.txb_InMetros.Name = "txb_InMetros";
             this.txb_InMetros.Size = new System.Drawing.Size(121, 20);
             this.txb_InMetros.TabIndex = 5;
-            this.txb_InMetros.TextChanged += new System.EventHandler(this.metodo_Metros);
             // 
             // button1
             // 
@@ -98,7 +102,7 @@
             this.Controls.Add(this.MostarEstado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboDNR);
             this.Name = "ProgramaPrincipal";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -107,7 +111,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cboDNR;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox MostarEstado;

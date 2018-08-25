@@ -19,19 +19,58 @@ namespace SensorAuto
 
         Clase_Sensor_Delantero S_Delantero = new Clase_Sensor_Delantero();
         Clase_Sensor_Trasero S_Trasero = new Clase_Sensor_Trasero();
+
         //float Distancia;
         string Estado_Direccion = null;
+        Boolean EstadoDrive = false;
+        Boolean EstadoNeutral = false;
+        Boolean EstadoReverse = false;
 
-        private void metodo_Metros(object sender, EventArgs e)
+        //Boolean Delantero = false;
+
+
+
+
+        private void SeleccionarDNR(object sender, EventArgs e)
         {
-            S_Delantero.Distancia_Ingresada = float.Parse(txb_InMetros.Text);
-            Estado_Direccion = S_Delantero.Acelerar();
+            if ("Drive" == this.cboDNR.SelectedItem.ToString())
+            {
+                S_Delantero.Distancia_Ingresada = float.Parse(txb_InMetros.Text);
+                EstadoDrive  = S_Delantero.Calcular_Distancia();
+                 
+
+            }
+            else if ("Reverse" == this.cboDNR.SelectedItem.ToString())
+            {
+                S_Trasero.Distancia_Ingresada = float.Parse(txb_InMetros.Text);
+                Estado_Direccion = S_Trasero.Acelerar();
+                EstadoReverse = true;
+
+            }
+            else //this.cboDNR.SelectedItem.ToString()
+            {
+                //S_+.Distancia_Ingresada = float.Parse(txb_InMetros.Text);
+                //Estado_Direccion = S_Delantero.Acelerar();
+            }
         }
+
         private void EnviarDatos(object sender, EventArgs e)
         {
-            Estado_Direccion = S_Delantero.Acelerar();
+            if (EstadoDrive) {
+                //Estado_Direccion = S_Delantero.Acelerar();
+                Estado_Direccion = "Si se puede mover hacia adelante";
+            }
+            else if(EstadoReverse)
+            {
+                Estado_Direccion = "Si se puede mover hacia atrás";
+            }
+            
             this.MostarEstado.Text = Estado_Direccion;
+
+            EstadoDrive = false;
+            EstadoNeutral = false;
+            EstadoReverse = false;
         }
-        
     }
 }
+ 

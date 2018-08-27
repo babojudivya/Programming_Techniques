@@ -9,30 +9,20 @@ namespace SensorAuto
     class Clase_Sensor_Trasero: Clase_Sensor
     {
 
-
         internal override string Alarma()
         {
-            return "Alarma trasera sonando";
-        }
-
-        internal override string Acelerar()
-        {
-            string Direccion_Aceleracion = null;
-
-            if (Activar_Movimiento)
-            {
-                if (distancia_Ingresada<30)
-                {
-                    Direccion_Aceleracion = "Acelerando Atras";
-                }
-            }
-
-            return Direccion_Aceleracion;
+            return "Back alarm activated" + Environment.NewLine;
         }
 
         internal override string Frenar()
         {
-            return "Llantas traseras frenando";
+            return "Back wheels braking" + Environment.NewLine; 
         }
+
+        internal override string GetMovimiento()
+        {
+            return "The car can move back" + Environment.NewLine; 
+        }
+
     }
 }

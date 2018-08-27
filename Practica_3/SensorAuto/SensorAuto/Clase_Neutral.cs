@@ -10,27 +10,23 @@ namespace SensorAuto
     {
         internal override string Alarma()
         {
-            return "Alarma estática";
-        }
-
-        internal override string Acelerar()
-        {
-            string Direccion_Aceleracion = null;
-
-            if (Activar_Movimiento)
-            {
-                if (distancia_Ingresada < 30)
-                {
-                    Direccion_Aceleracion = "Modo estático";
-                }
-            }
-
-            return Direccion_Aceleracion;
+            return "Without alarm" + Environment.NewLine; 
         }
 
         internal override string Frenar()
         {
-            return "Llantas traseras y delanteras frenando";
+            return "Wheels without brakes" + Environment.NewLine; 
         }
+
+        internal override string GetMovimiento()
+        {
+            return "In a neutral state" + Environment.NewLine; 
+        }
+
+        internal string GetMovimiento(string a)
+        {
+            return "Braking in the dry" + Environment.NewLine;
+        }
+
     }
 }

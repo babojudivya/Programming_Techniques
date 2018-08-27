@@ -69,9 +69,9 @@
             // 
             // MostarEstado
             // 
-            this.MostarEstado.Location = new System.Drawing.Point(88, 208);
+            this.MostarEstado.Location = new System.Drawing.Point(61, 198);
             this.MostarEstado.Name = "MostarEstado";
-            this.MostarEstado.Size = new System.Drawing.Size(121, 65);
+            this.MostarEstado.Size = new System.Drawing.Size(185, 92);
             this.MostarEstado.TabIndex = 4;
             this.MostarEstado.Text = "";
             // 
@@ -84,7 +84,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(111, 169);
+            this.button1.Location = new System.Drawing.Point(111, 155);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -104,7 +104,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboDNR);
             this.Name = "ProgramaPrincipal";
-            this.Text = "Form1";
+            this.Text = "Auto Sensor";
             this.ResumeLayout(false);
             this.PerformLayout();
 

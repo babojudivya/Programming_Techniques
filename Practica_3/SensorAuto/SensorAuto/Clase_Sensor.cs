@@ -12,8 +12,12 @@ namespace SensorAuto
         protected float distancia_Calculada = 0.0f;
         protected float distancia_Ingresada = 0.0f;
         protected Boolean Activar_Movimiento = true;
-
+        protected string Activar_Aceleracion = null;
         protected Boolean Accion_Frenar = false;
+        protected string Sonando_Alarma = null;
+        protected string Llantas_Stop = null;
+
+
 
         internal float Distancia_Calculada
         {
@@ -27,7 +31,7 @@ namespace SensorAuto
                 distancia_Calculada = value;
             }
         }
-        
+
         internal float Distancia_Ingresada
         {
             get
@@ -41,31 +45,56 @@ namespace SensorAuto
             }
         }
 
+        internal virtual string GetMovimiento()
+        {
+            return "Dirección Movimeinto" + Environment.NewLine;
+        }
+
+        internal virtual string Moviendose()
+        {
+            return "Moviendose" + Environment.NewLine;
+        }
         internal virtual string Frenar()
         {
-            return "Auto frenando";
+            return "Auto frenando" + Environment.NewLine;
         }
 
-        internal virtual string Acelerar()
-        {
-            return "Auto acelerando";
-        }
+
 
         internal abstract string Alarma();
+        internal virtual string Acelerar()
+        {
+            if (Distancia_Ingresada >= 50)
+            {
+                Activar_Aceleracion = "Speeding up" + Environment.NewLine; //opción para moverse
+            }
+            else if (Distancia_Ingresada <= 2)
+            {
+                Activar_Aceleracion = "Slowing down" + Environment.NewLine; //ya no se tiene que mover
+                Sonando_Alarma = Alarma();
+                Llantas_Stop = Frenar();
+            }
+            else
+            {
+                Activar_Aceleracion = " ";
+            }
+
+            return Activar_Aceleracion + " " + Sonando_Alarma + Llantas_Stop;
+        }
 
         internal Boolean Calcular_Distancia()
         {
-            if (Distancia_Ingresada>=10)
+            if (Distancia_Ingresada >= 2)
             {
-                Activar_Movimiento = true;
-            }else if (Distancia_Ingresada <=10)
+                Activar_Movimiento = true; //opción para moverse
+            }
+            else if (Distancia_Ingresada <= 2)
             {
-                Activar_Movimiento = false;
+                Activar_Movimiento = false; //ya no se tiene que mover
             }
             return Activar_Movimiento;
-        
         }
     }
 
- 
+
 }

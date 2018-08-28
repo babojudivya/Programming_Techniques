@@ -1,0 +1,9 @@
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\bin\Debug\SensoresTest.exe.config
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\bin\Debug\SensoresTest.exe
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\bin\Debug\SensoresTest.pdb
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\obj\Debug\SensoresTest.csprojResolveAssemblyReference.cache
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\obj\Debug\SensoresTest.Principal.resources
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\obj\Debug\SensoresTest.Properties.Resources.resources
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\obj\Debug\SensoresTest.csproj.GenerateResource.Cache
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\obj\Debug\SensoresTest.exe
+c:\users\alumno\documents\visual studio 2012\Projects\SensoresTest\SensoresTest\obj\Debug\SensoresTest.pdb

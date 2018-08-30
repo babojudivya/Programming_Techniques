@@ -1,0 +1,6 @@
+c:\users\alumno\documents\visual studio 2012\Projects\Robot\Robot\bin\Debug\Robot.exe.config
+c:\users\alumno\documents\visual studio 2012\Projects\Robot\Robot\obj\Debug\Robot.csprojResolveAssemblyReference.cache
+c:\users\alumno\documents\visual studio 2012\Projects\Robot\Robot\bin\Debug\Robot.exe
+c:\users\alumno\documents\visual studio 2012\Projects\Robot\Robot\bin\Debug\Robot.pdb
+c:\users\alumno\documents\visual studio 2012\Projects\Robot\Robot\obj\Debug\Robot.exe
+c:\users\alumno\documents\visual studio 2012\Projects\Robot\Robot\obj\Debug\Robot.pdb

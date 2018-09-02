@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot", "Robot\Robot.csproj", "{FA71F5F6-C17E-4760-BAA3-A339DB5DD1BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA71F5F6-C17E-4760-BAA3-A339DB5DD1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA71F5F6-C17E-4760-BAA3-A339DB5DD1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA71F5F6-C17E-4760-BAA3-A339DB5DD1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA71F5F6-C17E-4760-BAA3-A339DB5DD1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

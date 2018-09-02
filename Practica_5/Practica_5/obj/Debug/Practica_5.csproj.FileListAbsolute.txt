@@ -1,0 +1,10 @@
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\bin\Debug\Practica_5.exe.config
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\bin\Debug\Practica_5.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\bin\Debug\Practica_5.pdb
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.csprojAssemblyReference.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.Form1.resources
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.Properties.Resources.resources
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.csproj.GenerateResource.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.csproj.CoreCompileInputs.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Practica_5\Practica_5\obj\Debug\Practica_5.pdb

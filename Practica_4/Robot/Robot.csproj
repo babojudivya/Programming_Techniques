@@ -41,10 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hijo_Humanoide.cs" />
-    <Compile Include="Padre_Robot.cs" />
+    <Compile Include="Box.cs" />
+    <Compile Include="Operadores.cs" />
+    <Compile Include="OperadoresNegativos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Puntaje.cs" />
+    <Compile Include="PuntajeNegativo.cs" />
+    <Compile Include="ResultadoJuego.cs" />
+    <Compile Include="RestaOperadoresSobrecargada.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

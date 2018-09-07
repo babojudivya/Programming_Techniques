@@ -1,0 +1,152 @@
+-----------------------------------------------------------------------------
+		Suma 1
+-----------------------------------------------------------------------------
+
+Matriz 1:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+Matriz 2:
+[11] - Inserción
+[22] - Búsqueda
+[33] - Eliminación
+[44] - Listado
+Operaciones entre elementos:
+[77] - Suma
+[88] - Resta
+[99] - Multiplicaion
+
+
+ - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - 
+Matriz 1:
+[1] - Inserción
+ - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - 
+Inicialización
+INSERCIÓN DE ELEMENTOS ¿Cuántos números vas a introducir? 2
+Ingresa el elemento 1: 1
+Ingresa el elemento 2: 2
+Hay 2 número(s) introducido(s)
+Elemento 1: 1
+Elemento 2: 2
+
+
+ - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - 
+Matriz 2:
+[11] - Inserción
+ - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - 
+Inicialización
+INSERCIÓN DE ELEMENTOS ¿Cuántos números vas a introducir? 2
+Ingresa el elemento 1: 34
+Ingresa el elemento 2: 5
+Hay 2 número(s) introducido(s)
+Elemento 1: 34
+Elemento 2: 5
+
+ - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - 
+[77] - Suma
+ - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - 
+
+Suma
+Hay 2 número(s) introducido(s)
+Elemento 1: 1
+Elemento 2: 2
+Hay 2 número(s) introducido(s)
+Elemento 1: 34
+Elemento 2: 5
+La suma de los vectores es:
+[35] [7]
+
+-----------------------------------------------------------------------------
+		Suma 2
+-----------------------------------------------------------------------------
+
+Matriz 1:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+Matriz 2:
+[11] - Inserción
+[22] - Búsqueda
+[33] - Eliminación
+[44] - Listado
+Operaciones entre elementos:
+[77] - Suma
+[88] - Resta
+[99] - Multiplicaion
+77
+Suma
+Hay 1 número(s) introducido(s)
+Elemento 1: 10
+Hay 1 número(s) introducido(s)
+Elemento 1: 20
+La suma de los vectores es:
+[30]
+
+-----------------------------------------------------------------------------
+		Multiplicación 
+-----------------------------------------------------------------------------
+Matriz 1:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+Matriz 2:
+[11] - Inserción
+[22] - Búsqueda
+[33] - Eliminación
+[44] - Listado
+Operaciones entre elementos:
+[77] - Suma
+[88] - Resta
+[99] - Multiplicaion
+[1010] - División
+99
+Multiplicación
+Hay 3 número(s) introducido(s)
+Elemento 1: 90
+Elemento 2: 60
+Elemento 3: 30
+Hay 3 número(s) introducido(s)
+Elemento 1: 30
+Elemento 2: 30
+Elemento 3: 30
+Multiplicacion
+La multiplicacion de los vectores es:
+[0] [2700] [1800] [900]
+
+
+-----------------------------------------------------------------------------
+		Resta
+-----------------------------------------------------------------------------
+
+Matriz 1:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+Matriz 2:
+[11] - Inserción
+[22] - Búsqueda
+[33] - Eliminación
+[44] - Listado
+Operaciones entre elementos:
+[77] - Suma
+[88] - Resta
+[99] - Multiplicaion
+88
+Resta
+Hay 2 número(s) introducido(s)
+Elemento 1: 10
+Elemento 2: 40
+Hay 2 número(s) introducido(s)
+Elemento 1: 5
+Elemento 2: 5
+Resta
+La resta de los vectores es:
+[0] [5] [35]

@@ -1,0 +1,171 @@
+-----------------------------------------------------------------------------
+		LISTADO
+-----------------------------------------------------------------------------
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+4
+Listado
+Hay 0 número(s) introducido(s)
+-----------------------------------------------------------------------------
+		INSERCIÓN
+-----------------------------------------------------------------------------
+
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+1
+Inicialización
+INSERCIÓN DE ELEMENTOS ¿Cuántos números vas a introducir? 3
+Ingresa el elemento 1: 10
+Ingresa el elemento 2: 40
+Ingresa el elemento 3: 77
+Hay 3 número(s) introducido(s)
+Elemento 1: 10
+Elemento 2: 40
+Elemento 3: 77
+
+-----------------------------------------------------------------------------
+		ELIMINACIÓN
+-----------------------------------------------------------------------------
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+3
+Eliminación
+Array actual:
+10 40 77
+¿Qué número deseas eliminar?
+40
+Array nuevo:
+10 77
+
+-----------------------------------------------------------------------------
+		LISTADO 2
+-----------------------------------------------------------------------------
+
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+4
+Listado
+Hay 2 número(s) introducido(s)
+Elemento 1: 10
+Elemento 2: 77
+
+
+-----------------------------------------------------------------------------
+		INSERCIÓN
+-----------------------------------------------------------------------------
+
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+1
+Inicialización
+INSERCIÓN DE ELEMENTOS ¿Cuántos números vas a introducir? 3
+Ingresa el elemento 1: 10
+Ingresa el elemento 2: 40
+Ingresa el elemento 3: 77
+Hay 3 número(s) introducido(s)
+Elemento 1: 10
+Elemento 2: 40
+Elemento 3: 77
+
+-----------------------------------------------------------------------------
+		INSERCIÓN 2
+-----------------------------------------------------------------------------
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+1
+Inicialización
+INSERCIÓN DE ELEMENTOS ¿Cuántos números vas a introducir? 3
+Ingresa el elemento 1: 44
+Ingresa el elemento 2: 55
+Ingresa el elemento 3: 67
+Hay 3 número(s) introducido(s)
+Elemento 1: 44
+Elemento 2: 55
+Elemento 3: 67
+
+-----------------------------------------------------------------------------
+		BÚSQUEDA 
+-----------------------------------------------------------------------------
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+2
+Búsqueda
+¿Qué número deseas buscar?
+44
+El número 44 se ha encontrado en la posición 1
+
+-----------------------------------------------------------------------------
+		LISTADO 2
+-----------------------------------------------------------------------------
+
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+4
+Listado
+Hay 3 número(s) introducido(s)
+Elemento 1: 44
+Elemento 2: 55
+Elemento 3: 67
+
+-----------------------------------------------------------------------------
+		SALIR
+-----------------------------------------------------------------------------
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+0
+Saliendo de la aplicación
+
+-----------------------------------------------------------------------------
+		LISTADO 5
+-----------------------------------------------------------------------------
+Elige una opción:
+[1] - Inserción
+[2] - Búsqueda
+[3] - Eliminación
+[4] - Listado
+[0] - Salir
+4
+Listado
+Hay 2 número(s) introducido(s)
+Elemento 1: 10
+Elemento 2: 77
+
+-----------------------------------------------------------------------------
+		Excepciones en img
+-----------------------------------------------------------------------------

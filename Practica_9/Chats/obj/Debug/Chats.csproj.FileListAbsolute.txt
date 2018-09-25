@@ -1,0 +1,7 @@
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\obj\Debug\Chats.csprojAssemblyReference.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\obj\Debug\Chats.csproj.CoreCompileInputs.cache
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\bin\Debug\Chats.exe.config
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\bin\Debug\Chats.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\bin\Debug\Chats.pdb
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\obj\Debug\Chats.exe
+C:\Users\Erick .LAPTOP-3QCCTCO7\source\repos\Chats\Chats\obj\Debug\Chats.pdb

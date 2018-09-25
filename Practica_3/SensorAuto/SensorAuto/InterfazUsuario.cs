@@ -75,7 +75,7 @@ namespace SensorAuto
             }
             else if(EstadoNeutral)
             {
-                Estado_Direccion = S_Neutral.GetMovimiento();
+                Estado_Direccion = "In neutral state";
             }
             else if ((EstadoDrive = false) || (EstadoReverse = false) || (EstadoNeutral = false))
             {

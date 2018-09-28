@@ -1,0 +1,10 @@
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\bin\Debug\Eventos_P10.exe.config
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\bin\Debug\Eventos_P10.exe
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\bin\Debug\Eventos_P10.pdb
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.csprojAssemblyReference.cache
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.Form1.resources
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.Properties.Resources.resources
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.csproj.GenerateResource.cache
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.csproj.CoreCompileInputs.cache
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.exe
+C:\Users\alumnos\source\repos\Eventos_P10\Eventos_P10\obj\Debug\Eventos_P10.pdb
